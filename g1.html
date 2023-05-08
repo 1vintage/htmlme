@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Forms</title>
+</head>
+<body bgcolor="EEE8AA">
+<H2 align="CENTER">Enter the Form Details</h2>
+<form>
+ Name:&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="text"name="fname" size="30" maxlength="25">
+  <p>Password:&nbsp;&nbsp;
+  <input type="Password"name="psswd" size="20" maxlength="125"><br></p>
+ Sex:
+   <input type="radio" name="sex" value="Male">Male
+   <input type="radio" name="sex" value="Female">Female
+   <input type="radio" name="sex" value="Third Gen">Third Gen<br><BR>
+
+ Hobbies:
+   <input type="checkbox" name="hobby" value="Playing">Playing
+   <input type="checkbox" name="hobby" value="Tv">Tv
+   <input type="checkbox" name="hobby" value="Reading">Reading<br><BR>
+<FIELDSET>
+<LEGEND>Nationality</LEGEND>
+Nationality:
+<select  name="Nationality" size="1">
+   <option value="Indian">Indian
+   <option value="Srilankan">Srilankan
+   <option value="Nepali">Nepali
+</select><br><br>
+STATE:&nbsp;
+<INPUT TYPE="text" Name="State" Size="15"><BR><BR>
+DISTRICT:&nbsp;
+<INPUT TYPE="text" Name="District" Size="15"><BR><BR>
+</FIELDSET><br>
+ADDRESS:
+<TEXTAREA rows="5" coloumns="25" Name="Address">
+Address</TEXTAREA><br><br>
+<label>Enter Cricket player:press any character:
+<input type="text" id="fav" list="players">
+<datalist id="players">
+ <option value="Kumble">
+ <option value="MSD">
+ <option value="Sachin">
+ <option value="Gambir">
+ <option value="Sewag">
+ <option value="Singh">
+</datalist><BR>
+<INPUT TYPE="Submit" value="Submit">
+<INPUT TYPE="Reset" value="Reset">
+</form>
+</body>
+</html>
