@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "vineeth101"
+    },
+    "adminPassword": {
+      "value": "Root12345678@"
+    },
+    "VMname": {
+      "value": "booo"
+    },
+    "VMsize": {
+      "value": "Standard_DS2_v2"
+    },
+    "location": {
+      "value": "southcentralus"
+    }
+  }
+}
